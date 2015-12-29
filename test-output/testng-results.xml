@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Jim" duration-ms="1816" started-at="2015-12-27T07:06:28Z" finished-at="2015-12-27T07:06:30Z">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="Search.test2(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TC.Search@184e5a8]" name="test2" class="TC.Search"/>
+        <method signature="login.test2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TC.login@1cf4813]" name="test2" class="TC.login"/>
+      </group> <!-- SmokeTest -->
+    </groups>
+    <test name="JimTest" duration-ms="1816" started-at="2015-12-27T07:06:28Z" finished-at="2015-12-27T07:06:30Z">
+      <class name="TC.login">
+        <test-method status="PASS" signature="execute_beforetest()[pri:0, instance:TC.login@1cf4813]" name="execute_beforetest" is-config="true" duration-ms="1763" started-at="2015-12-27T12:36:28Z" finished-at="2015-12-27T12:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- execute_beforetest -->
+        <test-method status="PASS" signature="test2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TC.login@1cf4813]" name="test2" duration-ms="1" started-at="2015-12-27T12:36:30Z" data-provider="validlogin" finished-at="2015-12-27T12:36:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GB_07]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[qtpworld2008@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[learn123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[qtpworld2008 g]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- TC.login -->
+      <class name="TC.Search">
+        <test-method status="PASS" signature="test2(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TC.Search@184e5a8]" name="test2" duration-ms="0" started-at="2015-12-27T12:36:30Z" data-provider="validsearch" finished-at="2015-12-27T12:36:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GB_09]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ways]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[495.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test2(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TC.Search@184e5a8]" name="test2" duration-ms="0" started-at="2015-12-27T12:36:30Z" data-provider="validsearch" finished-at="2015-12-27T12:36:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GB_11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jaico]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test2(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TC.Search@184e5a8]" name="test2" duration-ms="0" started-at="2015-12-27T12:36:30Z" data-provider="validsearch" finished-at="2015-12-27T12:36:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GB_10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chandler]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[428.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- TC.Search -->
+    </test> <!-- JimTest -->
+  </suite> <!-- Jim -->
+</testng-results>
